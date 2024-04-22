@@ -22,7 +22,7 @@ Python 3.7.16
 Scikit 1.0.2
 Numpy 1.21.5
 Pandas 1.3.5
-Shap	 0.41.0
+Shap 0.41.0
 Matplotlib 3.5.3
 ```
 
