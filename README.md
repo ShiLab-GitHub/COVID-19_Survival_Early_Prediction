@@ -7,7 +7,7 @@ Data sets are stored in the data file.
 The processed metabolomics data used in this study were obtained from Figshare (https://doi.org/10.6084/m9.figshare.22047761.v1). The dataset consisting of 197 samples from 177 individuals, including 28 samples from patients with a mild diagnosis of COVID-19, 40 samples from moderate COVID-19 patients, 49 samples from severe COVID-19 patients, 33 samples from patients who progressed to a fatal outcome, and 27 samples from control donors. 20 samples from a group of individuals with longitudinal follow-up who allowed paired sampling on average of 172 days after recovery from COVID-19.
 Annotated information and detailed patient descriptions are available in the original paper's supplementary material [1].
 
-[1] L. G. Gardinassi et al., “Integrated Metabolic and Inflammatory Signatures Associated with Severity of, Fatality of, and Recovery from COVID-19,” MICROBIOLOGY SPECTRUM, vol. 11, no. 2, Apr. 2023.
++ L. G. Gardinassi et al., “Integrated Metabolic and Inflammatory Signatures Associated with Severity of, Fatality of, and Recovery from COVID-19,” MICROBIOLOGY SPECTRUM, vol. 11, no. 2, Apr. 2023.
 
 # Model
 We built the model to predict the clinical outcome of COVID-19 based on the data set containing 82 samples (49 samples from severe patients diagnosed with COVID-19 and 33 samples from patients with progression to fatal outcome).
@@ -17,17 +17,14 @@ Our study fitted two prediction models, random forest (RF) and lightGBM (LGB), t
 To predict the likelihood of survival, we analyzed and identified important metabolites of COVID-19 patients. In this study, ANOVA, correlation analysis and SHAP analysis were used to explore the feature metabolites. Based on the RF and LGB models, the top 20 SHAP metabolites were screened and the intersected feature metabolites were identified as the most important metabolites in both algorithms for subsequent analysis.
 
 # Dependencies
+```
 Python 3.7.16
-
 Scikit 1.0.2
-
 Numpy 1.21.5
-
 Pandas 1.3.5
-
 Shap	 0.41.0
-
 Matplotlib 3.5.3
+```
 
 # Result
 The pictures and results were saved in ./data/shap/01
