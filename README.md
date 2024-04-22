@@ -1,5 +1,5 @@
 # Early Prediction of COVID-19 Patient Survival by  Blood Plasma using Machine Learning
-The Coronavirus Disease 2019 (COVID-19) pandemic has severely disrupted the global healthcare and medical system. Although COVID-19 is no longer considered a public health emergency of international concern, it can still cause many infections and even life-threatening conditions. This repository contains the data and python script in support of manuscript: Early Prediction of COVID-19 Patient Survival by  Blood Plasma using Machine Learning. This study aims to reveal novel potential biomarkers of mortality and identify associated mechanisms of death caused by COVID-19 using machine learning approaches to re-analyze metabolomics data. 
+The Coronavirus Disease 2019 (COVID-19) pandemic has severely disrupted the global healthcare and medical system. Although COVID-19 is no longer considered a public health emergency of international concern, it can still cause many infections and even life-threatening conditions. This repository contains the data and python script in support of manuscript: Early Prediction of COVID-19 Patient Survival by  Blood Plasma using Machine Learning. The focus of this study is to reveal novel potential biomarkers of mortality and identify associated mechanisms of death caused by COVID-19 using machine learning approaches to re-analyze metabolomics data. 
 
 # Data
 Data sets are stored in the data file.
@@ -28,3 +28,14 @@ Matplotlib 3.5.3
 
 # Result
 The pictures and results were saved in ./data/shap/01
+
+# Citation
+```
+@inproceedings{Zhu, Yibo;Shi, Xiumin;Wang, Yan;Zhu, Yixuan;Wang, Lu2023Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning,
+title={Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning},
+author={Zhu, Yibo;Shi, Xiumin;Wang, Yan;Zhu, Yixuan;Wang, Lu},
+booktitle={6th IEEE International Conference on Computer and Communication Engineering Technology, CCET 2023},
+year={2023},
+}
+```
+
