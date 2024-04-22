@@ -36,8 +36,6 @@ The pictures and results were saved in ./data/shap/01
   booktitle={2023 IEEE 6th International Conference on Computer and Communication Engineering Technology (CCET)}, 
   title={Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning}, 
   year={2023},
-  volume={},
-  number={},
   pages={11-15},
   doi={10.1109/CCET59170.2023.10335125},
   url={https://doi.org/10.1109/CCET59170.2023.10335125}
