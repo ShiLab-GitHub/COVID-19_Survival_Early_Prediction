@@ -1,5 +1,5 @@
 # Early Prediction of COVID-19 Patient Survival by  Blood Plasma using Machine Learning
-The Coronavirus Disease 2019 (COVID-19) pandemic has severely disrupted the global healthcare and medical system. Although COVID-19 is no longer considered a public health emergency of international concern, it can still cause many infections and even life-threatening conditions. This study aims to reveal novel potential biomarkers of mortality and identify associated mechanisms of death caused by COVID-19 using machine learning approaches to re-analyze metabolomics data.
+The Coronavirus Disease 2019 (COVID-19) pandemic has severely disrupted the global healthcare and medical system. Although COVID-19 is no longer considered a public health emergency of international concern, it can still cause many infections and even life-threatening conditions. This repository contains the data and python script in support of manuscript: Early Prediction of COVID-19 Patient Survival by  Blood Plasma using Machine Learning. This study aims to reveal novel potential biomarkers of mortality and identify associated mechanisms of death caused by COVID-19 using machine learning approaches to re-analyze metabolomics data. 
 
 # Data
 Data sets are stored in the data file.
@@ -7,7 +7,7 @@ Data sets are stored in the data file.
 The processed metabolomics data used in this study were obtained from Figshare (https://doi.org/10.6084/m9.figshare.22047761.v1). The dataset consisting of 197 samples from 177 individuals, including 28 samples from patients with a mild diagnosis of COVID-19, 40 samples from moderate COVID-19 patients, 49 samples from severe COVID-19 patients, 33 samples from patients who progressed to a fatal outcome, and 27 samples from control donors. 20 samples from a group of individuals with longitudinal follow-up who allowed paired sampling on average of 172 days after recovery from COVID-19.
 Annotated information and detailed patient descriptions are available in the original paper's supplementary material [1].
 
-+ L. G. Gardinassi et al., “Integrated Metabolic and Inflammatory Signatures Associated with Severity of, Fatality of, and Recovery from COVID-19,” MICROBIOLOGY SPECTRUM, vol. 11, no. 2, Apr. 2023.
+[1] L. G. Gardinassi et al., “Integrated Metabolic and Inflammatory Signatures Associated with Severity of, Fatality of, and Recovery from COVID-19,” MICROBIOLOGY SPECTRUM, vol. 11, no. 2, Apr. 2023.
 
 # Model
 We built the model to predict the clinical outcome of COVID-19 based on the data set containing 82 samples (49 samples from severe patients diagnosed with COVID-19 and 33 samples from patients with progression to fatal outcome).
