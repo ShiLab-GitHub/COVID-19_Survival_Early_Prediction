@@ -31,11 +31,16 @@ The pictures and results were saved in ./data/shap/01
 
 # Citation
 ```
-@inproceedings{Zhu, Yibo;Shi, Xiumin;Wang, Yan;Zhu, Yixuan;Wang, Lu2023Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning,
-title={Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning},
-author={Zhu, Yibo;Shi, Xiumin;Wang, Yan;Zhu, Yixuan;Wang, Lu},
-booktitle={6th IEEE International Conference on Computer and Communication Engineering Technology, CCET 2023},
-year={2023},
+@INPROCEEDINGS{10335125,
+  author={Zhu, Yibo and Shi, Xiumin and Wang, Yan and Zhu, Yixuan and Wang, Lu},
+  booktitle={2023 IEEE 6th International Conference on Computer and Communication Engineering Technology (CCET)}, 
+  title={Early Prediction of COVID-19 Patient Survival by Blood Plasma Using Machine Learning}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={11-15},
+  doi={10.1109/CCET59170.2023.10335125},
+  url={https://doi.org/10.1109/CCET59170.2023.10335125}
 }
 ```
 
